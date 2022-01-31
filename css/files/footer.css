@@ -1,0 +1,38 @@
+footer {
+    background-color: #001927;
+  }
+  
+  footer li {
+    margin-top: 1.7em;
+  }
+
+  footer h3 {
+    color: #fff;
+  }
+
+  footer .rights {
+     color:#fff;
+     text-align: right;
+     flex: 0 0 100%;
+     margin-top: 5em;
+  }
+
+  .footer-container {
+    justify-content: space-between;
+    padding-top: 7em;
+    padding-bottom: 7em;
+    flex-wrap: wrap;
+  }
+
+  .contact-info {
+    color:#fff;
+    line-height: 1.5;
+  }
+
+  #google-map {
+    margin-top: 2.5em;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }

@@ -1,0 +1,17 @@
+/* Including fonts */
+@import "files/fonts.css";
+
+/* Including reset default styles */
+@import "files/reset.css";
+
+/* Including main styles */
+@import "files/main.css";
+
+/* Including slider  */
+@import "files/slider.css";
+
+/* Including form */
+@import "files/form.css";
+
+/* Including footer */
+@import "files/footer.css";

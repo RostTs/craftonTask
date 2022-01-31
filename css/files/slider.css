@@ -1,0 +1,70 @@
+.slider-buttons {
+    background: none;
+    margin-top: 8em;
+  }
+  
+  .slider-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .backward::before{
+    content: url("../../images/icons/arrow_left.png");
+    margin-right: 1em;
+  }
+  
+  .forward::before{
+    content: url("../../images/icons/arrow_right.png");
+  }
+  
+  .backward:hover:before{
+    content: url("../../images/icons/arrow_left_active.png");
+  }
+  .forward:hover:before{
+    content: url("../../images/icons/arrow_right_active.png");
+  }
+  
+  .slider-points{
+    display: flex;
+    flex-direction: column;
+    z-index:1 ;
+    position: absolute;
+   margin-left: 82em;
+      
+  }
+  
+  .slider-point{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1em;
+  }
+  
+  .deactive::before{
+    content: url("../../images/icons/dot_white.png");
+  }
+  
+  .active::before{
+    content: url("../../images/icons/dot_yellow.png");
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .shown {
+    display: block;
+    animation: slideAppear 0.5s;
+  }
+  
+  @keyframes slideAppear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: opacity linear;
+    }
+  }

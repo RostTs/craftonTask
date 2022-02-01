@@ -10,7 +10,7 @@ footer {
     color: #fff;
   }
 
-  footer .rights {
+  footer .created_by {
      color:#fff;
      text-align: right;
      flex: 0 0 100%;
